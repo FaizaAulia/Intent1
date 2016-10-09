@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        etUmur = (EditText) findViewById(R.id.editTextUmur);
-        etNama = (EditText) findViewById(R.id.editTextNama);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -31,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void goHasil() {
+        etUmur = (EditText) findViewById(R.id.editTextUmur);
+        etNama = (EditText) findViewById(R.id.editTextNama);
+
         String nama = etNama.getText().toString();
         String umurStr = etUmur.getText().toString();
 
