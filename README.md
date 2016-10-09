@@ -1,6 +1,6 @@
 <ol>
 ##<li> Judul Aplikasi </li>
-### AdvancedWidget3 
+### Intent1
 
 ##<li> Screenshot Aplikasi </li>
 ![intent1 1](https://cloud.githubusercontent.com/assets/21327758/19221122/1d5be6c2-8e67-11e6-9d5f-f8fea2fc4d51.png)
